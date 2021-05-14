@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/basicAuth';
+const MONGODB_URI = "mongodb+srv://l3akc47:l3akc47@cluster0.xs76a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 mongoose
   .connect(MONGODB_URI, {
